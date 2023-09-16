@@ -5,7 +5,6 @@ const showMoreMenu = document.querySelector('#show-more-menu');
 const showProductMenu = document.querySelector('#show-product-menu');
 
 hamburgerIcon.addEventListener('click', function () {
-  console.log(hamburgerMenu.style.transform);
   hamburgerMenu.classList.add('show-hamburger-menu');
 });
 
